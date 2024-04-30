@@ -1,0 +1,122 @@
+[
+  {
+    "rouge1": 22.0614,
+    "rouge2": 4.4126,
+    "rougeL": 18.0158,
+    "rougeLsum": 18.0454,
+    "gen_len": 442.2598752598753,
+    "model": "mbart-large-cc25",
+    "data": "LongSumEt",
+    "reduced_vocabulary": true,
+    "summary_type": "bulletpoints",
+    "max_seq_len": 1024
+  },
+  {
+    "rouge1": 27.9854,
+    "rouge2": 9.8125,
+    "rougeL": 19.8103,
+    "rougeLsum": 24.7255,
+    "gen_len": 465.29545454545456,
+    "model": "mbart-large-cc25",
+    "data": "riigikogu",
+    "reduced_vocabulary": true,
+    "summary_type": "bulletpoints",
+    "max_seq_len": 2048
+  },
+  {
+    "rouge1": 37.9071,
+    "rouge2": 16.2802,
+    "rougeL": 31.5887,
+    "rougeLsum": 35.1778,
+    "gen_len": 241.59950556242273,
+    "model": "mbart-large-cc25",
+    "data": "samsum_ee",
+    "reduced_vocabulary": true,
+    "summary_type": "text",
+    "max_seq_len": 1024
+  },
+  {
+    "rouge1": 37.0547,
+    "rouge2": 14.8011,
+    "rougeL": 30.5113,
+    "rougeLsum": 34.1101,
+    "gen_len": 456.85784919653895,
+    "model": "mbart-large-cc25",
+    "data": "samsum_ee",
+    "reduced_vocabulary": true,
+    "summary_type": "text",
+    "max_seq_len": 2048
+  },
+  {
+    "rouge1": 36.1651,
+    "rouge2": 15.9668,
+    "rougeL": 28.339,
+    "rougeLsum": 33.767,
+    "gen_len": 113.45454545454545,
+    "model": "mlong-t5-tglobal-base",
+    "data": "riigikogu",
+    "reduced_vocabulary": true,
+    "summary_type": "bulletpoints",
+    "max_seq_len": 2048
+  },
+  {
+    "rouge1": 36.8194,
+    "rouge2": 16.7082,
+    "rougeL": 29.155,
+    "rougeLsum": 34.3118,
+    "gen_len": 109.56818181818181,
+    "model": "mlong-t5-tglobal-base",
+    "data": "riigikogu",
+    "reduced_vocabulary": false,
+    "summary_type": "bulletpoints",
+    "max_seq_len": 2048
+  },
+  {
+    "rouge1": 26.0263,
+    "rouge2": 8.3355,
+    "rougeL": 22.0547,
+    "rougeLsum": 22.0598,
+    "gen_len": 52.32016632016632,
+    "model": "google/mt5-base",
+    "data": "LongSumEt",
+    "reduced_vocabulary": true,
+    "summary_type": "bulletpoints",
+    "max_seq_len": 1024
+  },
+  {
+    "rouge1": 37.7457,
+    "rouge2": 15.6536,
+    "rougeL": 31.659,
+    "rougeLsum": 34.5857,
+    "gen_len": 31.359703337453645,
+    "model": "google/mt5-base",
+    "data": "samsum_ee",
+    "reduced_vocabulary": true,
+    "summary_type": "text",
+    "max_seq_len": 1024
+  },
+  {
+    "rouge1": 32.7898,
+    "rouge2": 13.0878,
+    "rougeL": 28.3526,
+    "rougeLsum": 30.7215,
+    "gen_len": 31.597033374536466,
+    "model": "google/mt5-small",
+    "data": "samsum_ee",
+    "reduced_vocabulary": true,
+    "summary_type": "text",
+    "max_seq_len": 1024
+  },
+  {
+    "rouge1": 27.3205,
+    "rouge2": 9.7931,
+    "rougeL": 24.0778,
+    "rougeLsum": 25.7423,
+    "gen_len": 30.681087762669964,
+    "model": "google/umt5-small",
+    "data": "samsum_ee",
+    "reduced_vocabulary": true,
+    "summary_type": "text",
+    "max_seq_len": 1024
+  }
+]
