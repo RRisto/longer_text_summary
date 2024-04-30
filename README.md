@@ -22,3 +22,5 @@ Datasets used for experimenting:
 
 Best model trained on [Estonian Parliament stenograms summaries](https://huggingface.co/datasets/rristo/et_parliament_stenos_summary) is available [here](https://huggingface.co/rristo/mlong-t5-tglobal-base-et-riigikogu-summary)
 
+Article explaining what was done: https://ristohinno.medium.com/estonian-longer-text-summarization-8ddbf7f7cd45 
+
